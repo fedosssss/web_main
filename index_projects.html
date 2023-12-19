@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botoklepalka</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <header class="head">
+    <nav class="nav collapsible">
+      <div class="container nav__content">
+        <a aria-label="Hostify" class="nav__brand" href="/"><img src="images/botologo.svg" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">About Us</a></li>
+          <li class="nav__item"><a href="#">Projects</a></li>
+          <li class="nav__item"><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="block block--dark block--skewed-left hero">
+    <div class="container grid grid--1x2">
+      <header class="block__header hero__content" data-aos="fade-right">
+        <h1 class="block__heading">We create bots</h1>
+        <p class="hero__tagline">Of any complexity and for different social networks.</p>
+        <a href="" class="btn btn--accent btn--stretched">Make an order</a>
+      </header>
+      <picture data-aos="zoom-in">
+        <img class="hero__image" src="images/ters2.png"/>
+      </picture>
+    </div>
+  </section>
+  <section data-aos="fade-up" class="block container block-domain">
+    <header class="block__header">
+      <h2>Any questions? We will contact you!</h2>
+      <p>We will answer you within 24 working hours</p>
+    </header>
+    <div class="input-group">
+      <input aria-label="Domain" type="text" class="input" placeholder="Your email..." id="mail-input-text">
+      <button class="btn btn--accent" onclick="showText()">Send</button>
+    </div>
+  </section>
+  <section data-aos="fade-up" class="block container block-plans">
+    <header class="block__header">
+      <h2>We create bots for such social networks as:</h2>
+      <br>
+    </header>
+    <div class="grid grid--1x3">
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">№2</h3>
+            <span class="plan__price">VK</span>
+            <span class="plan__billing-cycle"></span>
+            <span class="badge badge--secondary badge--small">20% OFF</span>
+            <span class="plan__description">From 5$</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Features</li>
+              <li class="list__item">Unlimited Bandwidth</li>
+              <li class="list__item">24/7 Support</li>
+              <li class="list__item">Completion From 3 Days</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plan plan--popular">
+        <div class="card card--primary">
+          <header class="card__header">
+            <h3 class="plan__name">№1</h3>
+            <span class="plan__price">Telegram</span>
+            <span class="plan__billing-cycle"></span>
+            <span class="badge badge--primary badge--small">60% OFF</span>
+            <span class="plan__description">From 3$</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Features</li>
+              <li class="list__item">Unlimited Bandwidth</li>
+              <li class="list__item">24/7 Support</li>
+              <li class="list__item">Completion From 1 Day</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3 class="plan__name">№3</h3>
+            <span class="plan__price">Discord</span>
+            <span class="plan__billing-cycle"></span>
+            <span class="badge badge--secondary badge--small">20% OFF</span>
+            <span class="plan__description">From 8$</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Features</li>
+              <li class="list__item">Unlimited Bandwidth</li>
+              <li class="list__item">24/7 Support</li>
+              <li class="list__item">Completion from 5 days</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="block container">
+    <header data-aos="fade-up" class="block__header">
+      <h2>By choosing us, you choose</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quaerat?</p>
+    </header>
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content" data-aos="fade-right">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+            <use href="images/sprite.svg#easy"></use>
+          </svg>
+        </span>
+        <h3 class="feature__heading">Super Easy to Use</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, accusantium tempore nihil cumque aliquid
+          ad. Rem, laboriosam. Magni, id culpa.</p>
+        <a href="#" class="link-arrow">Learn More</a>
+      </div>
+      <picture data-aos="zoom-in-left">
+        <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+        <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+        <img class="feature__image" src="images/easy@2x.jpg" alt="">
+      </picture>
+    </article>
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content" data-aos="fade-right">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+            <use href="images/sprite.svg#computer"></use>
+          </svg>
+        </span>
+        <h3 class="feature__heading">Simply fast website</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, accusantium tempore nihil cumque aliquid
+          ad. Rem, laboriosam. Magni, id culpa.</p>
+        <a href="#" class="link-arrow">Learn More</a>
+      </div>
+      <picture data-aos="zoom-in-left">
+        <source type="image/webp" srcset="images/fast.webp 1x, images/fast@2x.webp 2x">
+        <source type="image/jpg" srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x">
+        <img class="feature__image" src="images/fast@2x.jpg" alt="">
+      </picture>
+    </article>
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content" data-aos="fade-right">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+            <use href="images/sprite.svg#settings"></use>
+          </svg>
+        </span>
+        <h3 class="feature__heading">WordPress made easy</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, accusantium tempore nihil cumque aliquid
+          ad. Rem, laboriosam. Magni, id culpa.</p>
+        <a href="#" class="link-arrow">Learn More</a>
+      </div>
+      <picture data-aos="zoom-in-left">
+        <source type="image/webp" srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x">
+        <source type="image/jpg" srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x">
+        <img class="feature__image" src="images/wordpress@2x.jpg" alt="">
+      </picture>
+    </article>
+    <article class="grid grid--1x2 feature">
+      <div class="feature__content" data-aos="fade-right">
+        <span class="icon-container">
+          <svg class="icon icon--primary">
+            <use href="images/sprite.svg#clock"></use>
+          </svg>
+        </span>
+        <h3 class="feature__heading">24/7 Expert Support</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, accusantium tempore nihil cumque aliquid
+          ad. Rem, laboriosam. Magni, id culpa.</p>
+        <a href="#" class="link-arrow">Learn More</a>
+      </div>
+      <picture data-aos="zoom-in-left">
+        <source type="image/webp" srcset="images/support.webp 1x, images/support@2x.webp 2x">
+        <source type="image/jpg" srcset="images/support.jpg 1x, images/support@2x.jpg 2x">
+        <img class="feature__image" src="images/support@2x.jpg" alt="">
+      </picture>
+    </article>
+  </section>
+  <section class="block block--skewed-right block--dark block-showcase">
+    <header class="block__header" data-aos="fade-up">
+      <h2 class="block-showcase__title">User-friendly Control Panel</h2>
+    </header>
+    <article class="container grid grid--1x2">
+      <picture class="block-showcase__image" data-aos="zoom-in-right">
+        <source type="image/webp" srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x">
+        <source type="image/png" srcset="images/ipad.png 1x, images/ipad@2x.png 2x">
+        <img src="images/ipad@2x.png" alt="">
+      </picture>
+      <div data-aos="fade-left">
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#snap"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Intuitive Interface</h3>
+            <p>
+              We create intuitive interfaces that do not require additional effort from the user to use them. This allows users to focus on their tasks and improves work efficiency.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Traffic Translation & Process Automation</h3>
+            <p>
+              We will help you relieve personal chats and transfer traffic to an automated system.
+            </p>
+          </div>
+          
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#growth"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Stable Operation & Warranty Period</h3>
+            <p>
+              We provide technical service, guarantee the reliability of our products and are always ready to help our customers.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </article>
+  </section>
+  <section data-aos="zoom-in" class="block">
+    <header class="block__header">
+      <h2>What our Customers are Saying</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, delectus?</p>
+    </header>
+    <div class="container">
+      <div class="testimonial card">
+        <div class="grid grid--1x2">
+          <div class="testimonial__image">
+            <img src="./images/testimonial.jpg" alt="A smiling customer">
+            <span class="icon-container icon-container--accent">
+              <svg class="icon icon--small icon--white">
+                <use href="images/sprite.svg#quotes"></use>
+              </svg>
+            </span>
+          </div>
+          <blockquote class="quote">
+            <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam praesentium fuga
+              consectetur, hic eaque fugiat
+              laboriosam nisi tempore fugit sapiente!</p>
+            <footer>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary quote-line">
+                    <use href="images/sprite.svg#line"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title quote__author">John Smith</h3>
+                  <p class="quote__organization">ABC Company</p>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="callout callout--primary callout-signup">
+      <div class="grid grid--1x2">
+        <div class="callout__content">
+          <h2 class="callout__heading">Ready to order?</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat officiis eaque aperiam maiores impedit
+            architecto cumque laborum adipisci ullam, fugit ex sunt minima excepturi veritatis, sed quibusdam harum.
+            Error, temporibus?</p>
+        </div>
+        <a href="#" class="btn btn--secondary btn--stretched">Make an order</a>
+      </div>
+    </div>
+  </div>
+  <footer class="block block--dark footer">
+    <div class="container grid footer__sections">
+      <section class="collapsible footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Company</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use href="images/sprite.svg#chevron"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Projects</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use href="images/sprite.svg#chevron"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="#">Projects Status</a></li>
+            <li><a href="#">Finished Projects</a></li>
+            <li><a href="#">Future Projects</a></li>
+
+          </ul>
+        </div>
+      </section>
+      <section class="collapsible footer__section">
+        <div class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">Contacts</h2>
+          <svg class="icon icon--white collapsible__chevron">
+            <use href="images/sprite.svg#chevron"></use>
+          </svg>
+        </div>
+        <div class="collapsible__content">
+          <ul class="list">
+            <li><a href="https://t.me/botoklepalka" target="_blank">Our Telegram</a></li>
+            <li><a href="https://vk.com/botoklepalka" target="_blank">Our VK</a></li>
+            <li><a href="https://www.instagram.com/botoklepalka/" target="_blank">Our Instagram</a></li>
+            <li><a href="https://github.com/fedosssss" target="_blank">Our GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+      <div class="footer__brand">
+        <img src="images/botologo.svg" alt="">
+        <p class="footer__copyright">
+          &copy;Copyright 2023 Botoklepalka
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function showText() {
+      let input = document.getElementById("mail-input-text"); // получаем элемент input
+      let text = input.value; // получаем текст из input
+      if (text!=""){
+        var index = text.indexOf("@");
+          if (index == -1) {
+            Swal.fire({
+              position: 'center',
+              icon: 'warning',
+              title: 'Oops...',
+              text: 'Invalid mail format',
+              showConfirmButton: true,
+              timer: 3000
+            }) 
+          }
+          else if(index == 0){
+            Swal.fire({
+              position: 'center',
+              icon: 'warning',
+              title: 'Oops...',
+              text: 'Invalid mail format',
+              showConfirmButton: true,
+              timer: 3000
+            }) 
+          }
+          else {
+            var length = text.length - index - 1;
+            if (length == 0) {
+              Swal.fire({
+              position: 'center',
+              icon: 'warning',
+              title: 'Oops...',
+              text: 'Invalid mail format',
+              showConfirmButton: true,
+              timer: 3000
+            }) 
+            }
+            else {
+              Swal.fire({
+              position: 'center',
+              icon: 'success',
+              title: 'Success!\nWe will contact you soon',
+              showConfirmButton: true,
+              timer: 2300
+            })  
+          }
+          console.log(text); 
+          input.value = ""; 
+        }
+      }
+      else{
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Oops...',
+          text: 'You left the input field empty',
+          showConfirmButton: true,
+          timer: 3000
+        })
+      }
+    }
+  
+  </script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

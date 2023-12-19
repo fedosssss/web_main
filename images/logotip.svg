@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #fff;
+        font-family: Impact;
+      }
+      .cls-2 {
+        font-size: 32.498px;
+        fill: #fff;
+        font-family: Inter;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="Фон" width="54" height="54" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAV0lEQVRoge3PARGAMAADsYI+/NsZOrL7OMiz75xd6L0xtWKgYppimmKaYppimmKaYppimmKaYppimmKaYppimmKaYppimmKaYppimmKaYppimmKaYpRtP5vjArYTVwARAAAAAElFTkSuQmCC"/>
+  <text id="B" class="cls-1" x="11.153" y="50.752">B</text>
+  <text id="otoklepalka" class="cls-2" transform="translate(71.466 35.437) scale(0.923)">otoklepalka</text>
+</svg>
